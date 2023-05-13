@@ -1,6 +1,6 @@
 from KR import searchKR
-# from N import ...... as N
-# from KMP import ...... as KMP
+# from N import ...... as searchN
+# from KMP import ...... as searchKMP
 from random import randint, choice
 
 
@@ -59,8 +59,8 @@ def test_pattern_equals_text():
     assert pattern_pos_list_KR == [0]
     # pattern_pos_list_KMP = searchN(pattern, text)
     # pattern_pos_list_KPM = searchKMP(pattern, text)
-    # assert pattern_pos_list_N == []
-    # assert pattern_pos_list_KMP == []
+    # assert pattern_pos_list_N == [0]
+    # assert pattern_pos_list_KMP == [0]
 
 
 def test_pattern_longer_then_text():
