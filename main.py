@@ -3,7 +3,7 @@ import time
 import gc
 import random
 import matplotlib.pyplot as plt
-#from naive import .... as naive_search
+from naive import naive_search as naive_search
 from kmp import kmp_search
 from KR import searchKR
 
