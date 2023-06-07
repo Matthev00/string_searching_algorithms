@@ -8,7 +8,7 @@ def create_test_case():
     text = ''
     pattern = ''
 
-    for i in range(size)
+    for i in range(size):
         text += choice(['A', 'B'])
 
     size = randint(1, size//10)
